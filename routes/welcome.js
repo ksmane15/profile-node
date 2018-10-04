@@ -4,7 +4,7 @@ const cotactUsController = require('../controllers/cotactUsController')
 const aboutController = require('../controllers/aboutController')
 
 
-welcomeRouter.get("/contactUs",cotactUsController)
+welcomeRouter.get("/contact",cotactUsController)
 
 welcomeRouter.get("/about",aboutController)
 

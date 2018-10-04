@@ -1,10 +1,10 @@
 module.exports = function(req,res){
-    console.log(" Inside Contact Us ====>")
+    console.log(" Inside Contact  ====>")
     res.json({
-        page:"/contactUs",
+        page:"/contact",
         details:{
-            email:"kaustubh.mane@opusconsulting.com",
-            contact:"7798654238",
+            email:"kaustubhmane15@gmail.com",
+            contact:"1234567890",
             Ext:"511"
         }
     });
